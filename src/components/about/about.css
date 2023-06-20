@@ -1,0 +1,18 @@
+.about{
+    color: var(--lightGray);
+    font-weight: 300;
+    font-size: medium;
+    padding-top: 15px;
+}
+
+.about span{
+    color: var(--gray);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.about span:hover{
+    --tw-text-opacity: 1;
+    color: rgb(94 234 212/var(--tw-text-opacity));
+}

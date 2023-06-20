@@ -1,0 +1,81 @@
+.allProjectsArea{
+    width: 100%;
+    height: fit-content;
+    padding-top: 100px;
+}
+
+table,tbody, th, td{
+    background-color: var(--backGround) !important;
+    border: none !important;
+}
+
+td {
+    border-bottom:  1px solid rgb(128, 128, 128, 0.1) !important;
+    border-top:  1px solid rgb(128, 128, 128, 0.1) !important;
+    padding: 20px 0 !important;
+}
+
+th{ 
+    color: var(--white) !important;
+    font-size: medium;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 20px 0 !important;
+}
+
+.year, .madeAt, .allLinks{
+    color: var(--lightGray) !important;
+    font-weight: 300 !important;
+    font-size: 0.95em !important;
+}
+
+
+.innerProjectLinks a {
+    color: var(--lightGray) !important;
+}
+
+.project{
+    color: var(--white) !important;
+    font-weight: 400 !important;
+}
+
+.allProjectLinks{
+    display: flex !important;
+    gap: 20px;
+}
+
+.allProjectsArea a{
+    text-decoration: none;
+}
+
+.allProjectsHeader{
+    font-size: 3.3em;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--white);
+    margin-bottom: 40px;
+}
+
+.back{
+    display: flex;
+    gap: 5px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.back span p{
+    color: var(--green);
+    font-size: 1.05em;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+}
+
+.back .backIcon{
+    color: var(--green);
+    transition: transform 0.5s;
+}
+
+.back:hover .backIcon{
+    transform: translateX(-5px);
+}

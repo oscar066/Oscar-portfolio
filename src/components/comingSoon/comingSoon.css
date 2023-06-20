@@ -1,0 +1,22 @@
+.comingSoonCard{
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.comingSoonCard:hover{
+    background-color: rgba(110, 110, 110, 0.1);
+}
+
+.comingSoonAbout{
+    font-size: 0.80em;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    width: 520px;
+    padding: 20px;
+    margin-top: 90px;
+    line-height: 1.8em;
+}
+
+.comingSoonAbout span{
+    font-weight: 400;
+}

@@ -1,0 +1,44 @@
+.experience{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+}
+
+/* .experience::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(153, 153, 153, 0.1), rgba(255,255,255, 0.1));
+} */
+
+.cvLink{
+    color: var(--white);
+    font-weight: 500;
+    font-size: medium;
+    display: flex;
+    gap: 5px;
+    margin: 20px;
+}
+
+.cvLink a{
+    color: var(--white);
+    text-decoration: none;
+    border-bottom: none;
+    padding-bottom: 0;
+    align-items: center;
+}
+
+.cvLink a:hover{
+    border-bottom: 1px solid rgb(94, 234, 212);
+}
+
+.linkFollow{
+    transition: transform 0.3s ease;
+}
+
+.cvLink:hover .linkFollow{
+    transform: translateX(5px);
+}

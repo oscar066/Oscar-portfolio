@@ -1,0 +1,30 @@
+.projectCard{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    transition: all 0.5s;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.projectName{
+    transition: all 0.5s;
+}
+
+.projectCard:hover .projectName{
+    color: var(--green);
+}
+
+.projectCard:hover{
+    background-color: rgba(110, 110, 110, 0.1);
+}
+
+.leftContent img{
+    width: 140px;
+    height: 80px;
+    border: 1px solid var(--lightGray);
+    border-radius: 3px;
+}
