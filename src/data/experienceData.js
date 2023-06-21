@@ -3,27 +3,30 @@ export const experienceData = [
         id: 1,
         institution: "ALX Program",
         purpose: "Software Engineer",
-        description: "Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and web development. Fast-forward to today, and I’ve had the privilege of building software for an ",
+        description: "Solidified my SE knowledge by learnig new programming languages C#, Python and also got to experience collaborating with individuals from a more diverse background. ",
         technologies: ["C#", "Python"],
         from: "2023 FEB",
         to: "present",
+        link: "https://www.alxafrica.com"
     },
     {
         id: 2,
         institution: "Moringa School",
         purpose: "Software Engineer",
-        description: "Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and web development. Fast-forward to today, and I’ve had the privilege of building software for an ",
+        description: "Exposed to a more direct and extensive approach to SE learning, participated in both personal and group projects, was introduced to project prisentation and other softskills knowledge.",
         technologies: ["Javascript", "HTML", "CSS3", "React js", "Ruby On Rails", "mySQL"],
         from: "2022 APR",
         to: "2022 SEP",
+        link:"https://moringaschool.com"
     },
     {
         id: 3,
         institution: "Motech Kenya",
         purpose: "Front End Dev",
-        description: "Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and web development. Fast-forward to today, and I’ve had the privilege of building software for an ",
+        description: "Occupied the front end developer intern position which mainly entailed marking new user friendly interfaces or maintaining those that already existed.",
         technologies: ["React js", "JavaScript", "CSS3", "HTML"],
         from: "2021 SEP",
         to: "2021 MAR",
+        link: ""
     }
 ]

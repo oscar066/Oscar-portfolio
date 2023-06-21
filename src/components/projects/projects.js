@@ -13,9 +13,9 @@ function Projects() {
         projectsData.map((item) => {
 
             return (
-                <div key={item.id} >
+                <Link to={item.webLink} target="_blank" key={item.id} >
                     <ProjectCard data={item}/>
-                </div>
+                </Link>
             )
         })
       }

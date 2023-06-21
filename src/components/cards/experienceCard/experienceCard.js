@@ -1,10 +1,11 @@
 import React from 'react'
 import './experienceCard.css'
 import { BsArrowUpRight } from "react-icons/bs"
+import { Link } from 'react-router-dom'
 
 function ExperienceCard({data}) {
   return (
-    <div className='experienceCard'>
+    <Link to={data.link} target="_blank" className='experienceCard'>
         <div className='leftContent'>
           <div className='duration'>
             <span>{data.from}</span>
@@ -39,7 +40,7 @@ function ExperienceCard({data}) {
                 }
             </div>
         </div>
-    </div>
+    </Link>
   )
 }
 

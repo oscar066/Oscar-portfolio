@@ -10,6 +10,7 @@ import About from "../../components/about/about";
 import Experience from "../../components/experience/experience";
 import Projects from "../../components/projects/projects";
 import ComingSoon from "../../components/comingSoon/comingSoon";
+import { Link } from "react-router-dom";
 
 function LandingPage() {
   return (
@@ -58,18 +59,18 @@ function LandingPage() {
             </div>
           </div>
           <div className="mediaLinks">
-            <span className="mediaIcon">
+            <Link to="https://github.com/Kpine-MO" target="_blank" className="mediaIcon">
               <AiFillGithub size={25} />
-            </span>
-            <span className="mediaIcon">
+            </Link>
+            <Link className="mediaIcon">
               <AiOutlineInstagram size={25} />
-            </span>
-            <span className="mediaIcon">
+            </Link>
+            <Link  className="mediaIcon">
               <AiOutlineTwitter size={25} />
-            </span>
-            <span className="mediaIcon">
+            </Link>
+            <Link to="https://www.linkedin.com/in/chrispine-ochieng-2421ab244?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BBYGOEwuzTtezjt9Mcu1w2w%3D%3D" target="_blank" className="mediaIcon">
               <AiFillLinkedin size={25} />
-            </span>
+            </Link>
           </div>
         </div>
       </div>

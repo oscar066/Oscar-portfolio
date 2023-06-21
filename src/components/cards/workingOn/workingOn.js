@@ -1,13 +1,15 @@
 import React from 'react'
 import './workingOn.css'
 import { RxExternalLink } from "react-icons/rx"
+import { Tooltip as ReactTooltip }  from "react-tooltip";
+import 'react-tooltip/dist/react-tooltip.css'
 
 function WorkingOn({data}) {
     const style = {
         marginBottom: "10px"
     }
   return (
-    <div className='workingOn'>
+    <div className='workingOn'data-tooltip-id="my-tooltip" data-tooltip-content="COMING SOON">
       <img src={data.image} alt="Coming Soon" className='workingOnImg' />
       <div className='workingOnRight'>
       <div className='innerRight'>
@@ -16,6 +18,9 @@ function WorkingOn({data}) {
       </div>
        <span><p className='workingOnDescription'>{data.description}</p></span>
       </div>
+
+      <ReactTooltip id="my-tooltip" />
+
     </div>
   )
 }
