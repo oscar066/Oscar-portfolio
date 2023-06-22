@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 function Projects() {
   return (
     <div>
+      <h1 className='allTheHeaders'>Projects</h1>
       <div className='projects'>
       {
         projectsData.map((item) => {

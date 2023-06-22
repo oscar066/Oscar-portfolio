@@ -7,6 +7,7 @@ import "./experience.css";
 function Experience() {
   return (
     <div>
+      <h1 className='allTheHeaders'>experience</h1>
       <div className="experience">
         {experienceData.map((item) => {
           return (

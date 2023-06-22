@@ -4,6 +4,7 @@ import './about.css'
 function About() {
   return (
     <div className='about'>
+      <h1 className='allTheHeaders'>About</h1>
       <p>
       Back in 2020 during the over seven months lock down during which there was no school i decidd to take my sidehustle <span><i>drawing artist</i></span> to the next level by introducing it to the world wide web, so i researched on the cost of a website and the prices were way to stip , which prompted me to do even more research, if it was this costly there had to be something intriging about it ? So I logged into YouTube clicked on the first Website Development Videos I found then the second and five videos, six hours later I had follen in love.  
       <br/>

@@ -16,7 +16,6 @@ function LandingPage() {
   return (
     <div className="landingPage">
       <div className="landingPageLeft">
-        <h2 className="test">Landing</h2>
         <div className="innerLPL">
           <div className="introductry">
             <h1 className="name">chrispine oduor</h1>

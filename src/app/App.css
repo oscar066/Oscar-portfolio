@@ -17,6 +17,11 @@
   background-color: #0f172a;
 }
 
+.allTheHeaders{
+  display: none;
+  
+}
+
 :root{
 --white: #d8e0ef;
 --gray: rgba(216, 224, 239, 0.7);
@@ -25,3 +30,99 @@
 --backGround: #0f172a;
 }
 
+
+@media only screen and (max-width: 1128px) {
+
+  .landingPageLeft{
+    width: 30%;
+}
+}
+
+@media only screen and (max-width: 990px) {
+.landingPage{
+  width: 100%;
+  display: block;
+  height: fit-content;
+  overflow: auto;
+}
+
+.innerLPL{
+  position: relative;
+  top: 30px;
+  padding-top: 40px;
+}
+
+.landingPageRight {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.introductry{
+  width: 500px;
+  line-height: 1.6em;
+}
+
+.list-group{
+  display: none;
+}
+
+.allTheHeaders{
+  display: block;
+  font-size: medium;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 30px;
+}
+
+.experienceCard{
+  width: 100%;
+  display: block;
+  text-decoration: none;
+}
+
+.duration{
+  margin-bottom: 10px;
+}
+
+.comingSoonAbout{
+  width: 100%;
+}
+
+.mediaLinks{
+  margin-top: 0px;
+  margin-bottom: 80px;
+}
+
+.row{
+  margin-top: 50px !important;
+}
+
+}
+
+@media only screen and (max-width: 790px) {
+
+  .projectCard{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    transition: all 0.5s;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    flex-wrap: wrap;
+  }
+  
+}
+
+@media only screen and (max-width: 447px) {
+
+  .topContent{
+    display: block;
+  }
+
+  .dot{
+    display: none;
+  }
+  
+}
