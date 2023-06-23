@@ -117,6 +117,10 @@
     margin-top: 120px;
 }
 
+.mediaLinks a{
+    color: rgb(148, 163, 184);;
+}
+
 .DrWho img{
     width: 90px;
     cursor: pointer;

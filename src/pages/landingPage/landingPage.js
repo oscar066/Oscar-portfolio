@@ -59,16 +59,16 @@ function LandingPage() {
           </div>
           <div className="mediaLinks">
             <Link to="https://github.com/Kpine-MO" target="_blank" className="mediaIcon">
-              <AiFillGithub size={25} />
+              <AiFillGithub size={30} />
             </Link>
             <Link className="mediaIcon">
-              <AiOutlineInstagram size={25} />
+              <AiOutlineInstagram size={30} />
             </Link>
             <Link  className="mediaIcon">
-              <AiOutlineTwitter size={25} />
+              <AiOutlineTwitter size={30} />
             </Link>
             <Link to="https://www.linkedin.com/in/chrispine-ochieng-2421ab244?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BBYGOEwuzTtezjt9Mcu1w2w%3D%3D" target="_blank" className="mediaIcon">
-              <AiFillLinkedin size={25} />
+              <AiFillLinkedin size={30} />
             </Link>
           </div>
         </div>

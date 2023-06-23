@@ -2,7 +2,7 @@ export const experienceData = [
     {
         id: 1,
         institution: "ALX Program",
-        purpose: "Software Engineer",
+        purpose: "Software Eng",
         description: "Solidified my SE knowledge by learnig new programming languages C#, Python and also got to experience collaborating with individuals from a more diverse background. ",
         technologies: ["C#", "Python"],
         from: "2023 FEB",
@@ -12,7 +12,7 @@ export const experienceData = [
     {
         id: 2,
         institution: "Moringa School",
-        purpose: "Software Engineer",
+        purpose: "Software Eng",
         description: "Exposed to a more direct and extensive approach to SE learning, participated in both personal and group projects, was introduced to project prisentation and other softskills knowledge.",
         technologies: ["Javascript", "HTML", "CSS3", "React js", "Ruby On Rails", "mySQL"],
         from: "2022 APR",

@@ -19,8 +19,8 @@ function AllProjects() {
           <tr>
             <th scope="col">year</th>
             <th scope="col">project</th>
-            <th scope="col">made at</th>
-            <th scope="col">built with</th>
+            <th className="invisible" scope="col">made at</th>
+            <th className="invisible" scope="col">built with</th>
             <th scope="col">link</th>
           </tr>
         </thead>
@@ -30,8 +30,8 @@ function AllProjects() {
               <tr>
                 <td scope="row" className="year">{item.year}</td>
                 <td className="project">{item.name}</td>
-                <td className="madeAt">{item.institution}</td>
-                <td>
+                <td className="madeAt invisible">{item.institution}</td>
+                <td className="invisible">
                   <div className="technologyContainer">
                     {item.technologies.map((item, i) => {
                       return (

@@ -24,7 +24,7 @@
 
 :root{
 --white: #d8e0ef;
---gray: rgba(216, 224, 239, 0.7);
+--gray: rgb(148, 163, 184);
 --lightGray: #5a6882;
 --green: #5eead4;
 --backGround: #0f172a;
@@ -124,5 +124,94 @@
   .dot{
     display: none;
   }
+  
+}
+
+
+@media only screen and (max-width: 375px) {
+
+.name{
+  font-size: 2em;
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240/var(--tw-text-opacity));
+}
+
+.accupation{
+  font-size: 1.2em;
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240/var(--tw-text-opacity));
+}
+
+.summary{
+  font-size: 0.89em;
+  width: 300px;
+  color: rgb(148, 163, 184);
+}
+
+.row{
+  margin-bottom: -20px !important;
+}
+
+.allTheHeaders{
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240/var(--tw-text-opacity));
+}
+
+.about p{
+  font-size: 0.95em;
+  color: rgb(148, 163, 184);
+  letter-spacing: 0.03em;
+  line-height: 1.6em;
+  font-weight: 500px;
+}
+
+.about span{
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240/var(--tw-text-opacity));
+  font-weight: 500;
+}
+
+.topContent{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.topContent span h1, h2{
+  font-size: 0.9em;
+  font-weight: 600;
+
+}
+
+.dot{
+  display: block;
+}
+
+.workingOn{
+  display: block;
+  line-height: 1.6em;
+}
+
+.workingOn img{
+  margin-bottom: 10px;
+  
+}
+
+.invisible{
+  display: none;
+}
+
+tbody tr .project{
+  font-weight: 500;
+}
+
+.allProjectsArea h1{
+  font-size: 2.2em;
+  padding-left: 10px;
+  margin-top: 10px;
+}
   
 }
