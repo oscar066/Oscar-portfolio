@@ -11,7 +11,7 @@ export const experienceData = [
     },
     {
         id: 2,
-        institution: "Moringa School",
+        institution: "Moringa Sch",
         purpose: "Software Eng",
         description: "Exposed to a more direct and extensive approach to SE learning, participated in both personal and group projects, was introduced to project prisentation and other softskills knowledge.",
         technologies: ["Javascript", "HTML", "CSS3", "React js", "Ruby On Rails", "mySQL"],
@@ -21,7 +21,7 @@ export const experienceData = [
     },
     {
         id: 3,
-        institution: "Motech Kenya",
+        institution: "Motech Ken",
         purpose: "Front End Dev",
         description: "Occupied the front end developer intern position which mainly entailed marking new user friendly interfaces or maintaining those that already existed.",
         technologies: ["React js", "JavaScript", "CSS3", "HTML"],
