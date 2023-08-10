@@ -18,11 +18,10 @@ function LandingPage() {
       <div className="landingPageLeft">
         <div className="innerLPL">
           <div className="introductry">
-            <h1 className="name">chrispine oduor</h1>
-            <h4 className="accupation">freelance web developer</h4>
+            <h1 className="name">OSCAR KARUGA</h1>
+            <h4 className="accupation">Python Developer | Data Scientist</h4>
             <p className="summary">
-              I build accessible, inclusive products and digital experiences for
-              the web.
+            I engineer innovative solutions and leverage the power of machine learning to create intelligent and accessible products for the web.
             </p>
           </div>
           <div className="row">
@@ -58,7 +57,7 @@ function LandingPage() {
             </div>
           </div>
           <div className="mediaLinks">
-            <Link to="https://github.com/Kpine-MO" target="_blank" className="mediaIcon">
+            <Link to="https://github.com/oscar066" target="_blank" className="mediaIcon">
               <AiFillGithub size={30} />
             </Link>
             <Link className="mediaIcon">
@@ -67,7 +66,7 @@ function LandingPage() {
             <Link  className="mediaIcon">
               <AiOutlineTwitter size={30} />
             </Link>
-            <Link to="https://www.linkedin.com/in/chrispine-ochieng-2421ab244?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BBYGOEwuzTtezjt9Mcu1w2w%3D%3D" target="_blank" className="mediaIcon">
+            <Link to="https://www.linkedin.com/in/oscar066-karuga/" target="_blank" className="mediaIcon">
               <AiFillLinkedin size={30} />
             </Link>
           </div>

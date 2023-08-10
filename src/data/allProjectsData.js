@@ -2,7 +2,7 @@ export const allProjects = [
     {
         id: 1,
         year: 2021,
-        institution: "Motech",
+        institution: "Montech",
         name: "Intra Deco",
         image: "https://i.postimg.cc/YCX4T2fy/Screenshot-2023-06-14-at-13-31-35.png",
         description: "When I’m not at the computer, I’m usually rock climbing, hanging out with my wife and two cats, or running around Hyrule searching for Korok seeds",
